@@ -161,3 +161,4 @@ async def chat(request: ChatRequest):
 
     # Stream the response using StreamingResponse
     return StreamingResponse(response_stream, media_type="text/plain")
+
